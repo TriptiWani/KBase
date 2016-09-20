@@ -1,0 +1,4 @@
+class User < ApplicationRecord
+	has_many :comments
+	belongs_to :company
+end
